@@ -1,0 +1,60 @@
+@font-face{font-family:'Font Awesome 5 Brands';font-style:normal;font-weight:400;src:url(https://salesql.s3.eu-central-1.amazonaws.com/ext/fonts/fa-brands-400.woff2) format('woff2'),url(chrome-extension://__MSG_@@extension_id__/fonts/fa-brands-400.woff) format('woff')}
+@font-face{font-family:'Font Awesome 5 Pro';font-style:normal;font-weight:400;src:url(https://salesql.s3.eu-central-1.amazonaws.com/ext/fonts/fa-regular-400.woff2) format('woff2'),url(chrome-extension://__MSG_@@extension_id__/fonts/fa-regular-400.woff) format('woff')}
+
+@font-face {
+    font-family:'muli';
+    src:url('../fonts/muli-300.woff2') format('woff2'),url('../fonts/muli-300.woff') format('woff'),url('../fonts/muli-300.eot') format('opentype');
+    font-display: auto;
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family:'muli';
+    src:url('../fonts/muli-italic-400.woff2') format('woff2'), url('../fonts/muli-italic-400.woff') format('woff'),url('../fonts/muli-italic-400.eot') format('opentype');
+    font-display: auto;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:'muli';
+    src:url('../fonts/muli-400.woff2') format('woff2'),url('../fonts/muli-400.woff') format('woff'),url('../fonts/muli-400.eot') format('opentype');
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:'muli';
+    src:url('../fonts/muli-600.woff2') format('woff2'),url('../fonts/muli-600.woff2') format('woff'),url('../fonts/muli-600.woff2') format('opentype');
+    font-display: auto;
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family:'muli';
+    src:url('../fonts/muli-700.woff2') format('woff2'),url('../fonts/muli-700.woff') format('woff'),url('../fonts/muli-700.eot') format('opentype');
+    font-display: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/material-icons.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Material Icons Outlined';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/material-icons-outlined.woff2') format('woff2');
+}
+
+body {
+    font-family: 'muli', sans-serif !important;
+}
